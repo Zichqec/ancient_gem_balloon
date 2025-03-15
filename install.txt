@@ -1,4 +1,4 @@
 charset,UTF-8
 type,balloon
-name,Simplicity Balloon
-directory,simplicity_balloon_zi
+name,Ancient Gem Balloon
+directory,ancient_gem_balloon_zi

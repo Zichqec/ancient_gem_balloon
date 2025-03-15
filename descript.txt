@@ -6,10 +6,10 @@ use_input_alpha,1
 
 
 //——— Basic information ———
-name,Simplicity Balloon
-craftman,
-craftmanw,
-craftmanurl,
+name,Ancient Gem Balloon
+craftman,Zichqec
+craftmanw,Zichqec
+craftmanurl,https://ukagaka.zichqec.com/
 homeurl,
 
 
