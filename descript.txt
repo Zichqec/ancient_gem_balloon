@@ -10,69 +10,77 @@ name,Ancient Gem Balloon
 craftman,Zichqec
 craftmanw,Zichqec
 craftmanurl,https://ukagaka.zichqec.com/
-homeurl,
+homeurl,https://raw.githubusercontent.com/Zichqec/ancient_gem_balloon/main/
 
 
 //——— Display area ———
 origin.x,0
 origin.y,0
 
-validrect.left,7
-validrect.top,7
-validrect.right,-20
-validrect.bottom,-20
+validrect.left,24
+validrect.top,38
+validrect.right,-25
+validrect.bottom,-34
 
-wordwrappoint.x,-28
+wordwrappoint.x,-39
 
 
 //——— Font ———
-font.name,Calibri
+font.name,CRYSRG__.TTF
 font.height,14
 
-font.color.r,101
-font.color.g,127
-font.color.b,148
+font.color.r,240
+font.color.g,240
+font.color.b,240
 
-anchor.font.color.r,015
-anchor.font.color.g,084
-anchor.font.color.b,138
+font.shadowcolor.r,060
+font.shadowcolor.g,060
+font.shadowcolor.b,105
 
-cursor.font.color.r,015
-cursor.font.color.g,084
-cursor.font.color.b,138
+anchor.font.color.r,237
+anchor.font.color.g,123
+anchor.font.color.b,218
+
+cursor.font.color.r,237
+cursor.font.color.g,123
+cursor.font.color.b,218
 
 cursor.style,underline
 
-disable.font.color.r,146
-disable.font.color.g,135
-disable.font.color.b,178
+disable.font.color.r,125
+disable.font.color.g,125
+disable.font.color.b,165
+
+//disable.font.shadowcolor.r,050
+//disable.font.shadowcolor.g,050
+//disable.font.shadowcolor.b,050
 
 
 //——— Arrows ———
-arrow0.x,-18
-arrow0.y,5
+arrow0.x,-24
+arrow0.y,36
 
-arrow1.x,-18
-arrow1.y,-20
+arrow1.x,-24
+arrow1.y,-31
 
 
 //——— Online marker ———
-onlinemarker.x,5
-onlinemarker.y,-18
+onlinemarker.x,27
+onlinemarker.y,2
 
-//onlinemarker.interval,175
+onlinemarker.interval,75
 
 
 //——— SSTP ———
-sstpmarker.x,18
-sstpmarker.y,-18
+sstpmarker.x,22
+sstpmarker.y,-35
 
-sstpmessage.font.name,Calibri
+sstpmessage.font.name,CRYSRG__.TTF
 sstpmessage.font.height,11
 
-sstpmessage.x,31
-sstpmessage.xr,-20
-sstpmessage.y,-17
+sstpmessage.x,32
+sstpmessage.xr,-27
+sstpmessage.y,-34
 
 sstpmessage.font.color.r,137
 sstpmessage.font.color.g,154
@@ -80,11 +88,11 @@ sstpmessage.font.color.b,168
 
 
 //——— Number ———
-number.font.name,Calibri
+number.font.name,CRYSRG__.TTF
 number.font.height,11
 
-number.xr,-20
-number.y,-17
+number.xr,-27
+number.y,-34
 
 number.font.color.r,137
 number.font.color.g,154
@@ -92,8 +100,8 @@ number.font.color.b,168
 
 
 //——— Input box ———
-communicatebox.x,8
-communicatebox.y,8
+communicatebox.x,20
+communicatebox.y,37
 
-communicatebox.width,283
+communicatebox.width,380
 communicatebox.height,20
