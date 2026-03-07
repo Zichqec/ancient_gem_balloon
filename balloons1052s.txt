@@ -1,0 +1,11 @@
+marker.filename,sstp105
+sstpmarker.filename,sstp105
+arrow.filename,arrow105
+
+anchor.font.color.r,175
+anchor.font.color.g,222
+anchor.font.color.b,055
+
+cursor.font.color.r,175
+cursor.font.color.g,222
+cursor.font.color.b,055
