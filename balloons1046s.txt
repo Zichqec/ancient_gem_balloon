@@ -9,3 +9,71 @@ anchor.font.color.b,064
 cursor.font.color.r,227
 cursor.font.color.g,213
 cursor.font.color.b,064
+
+
+//—————————— Individual settings ——————————
+//This section overrides the default settings in descript.txt. It is here to make it easy to combine this balloon with Forged Metal Balloon.
+//If you are customizing this balloon and **not** combining it with Forged Metal Balloon, then you may want to erase the "individual settings" section in all of the settings files except descript.txt, which will make editing this balloon easier.
+//——— Display area ———
+origin.x,0
+origin.y,0
+
+validrect.left,24
+validrect.top,38
+validrect.right,-25
+validrect.bottom,-34
+
+wordwrappoint.x,-39
+
+
+//——— Font ———
+font.color.r,240
+font.color.g,240
+font.color.b,240
+
+font.shadowcolor.r,060
+font.shadowcolor.g,060
+font.shadowcolor.b,105
+
+cursor.style,underline
+
+disable.font.color.r,125
+disable.font.color.g,125
+disable.font.color.b,165
+
+
+//——— Arrows ———
+arrow0.x,-24
+arrow0.y,36
+
+arrow1.x,-24
+arrow1.y,-31
+
+
+//——— Online marker ———
+onlinemarker.x,27
+onlinemarker.y,2
+
+onlinemarker.interval,75
+
+
+//——— SSTP ———
+sstpmarker.x,22
+sstpmarker.y,-35
+
+sstpmessage.x,32
+sstpmessage.xr,-27
+sstpmessage.y,-34
+
+sstpmessage.font.color.r,137
+sstpmessage.font.color.g,154
+sstpmessage.font.color.b,168
+
+
+//——— Number ———
+number.xr,-27
+number.y,-34
+
+number.font.color.r,137
+number.font.color.g,154
+number.font.color.b,168
