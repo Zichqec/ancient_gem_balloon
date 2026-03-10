@@ -1,0 +1,9 @@
+//—————————— Individual settings ——————————
+//This section overrides the default settings in descript.txt. It is here to make it easy to combine this balloon with Forged Metal Balloon.
+//If you are customizing this balloon and **not** combining it with Forged Metal Balloon, then you may want to erase the "individual settings" section in all of the settings files except descript.txt, which will make editing this balloon easier.
+//——— Input box ———
+communicatebox.x,20
+communicatebox.y,37
+
+communicatebox.width,380
+communicatebox.height,20
