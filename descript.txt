@@ -2,7 +2,6 @@ charset,UTF-8
 type,balloon
 use_self_alpha,1
 use_input_alpha,1
-//overlay_outside_balloon,1
 
 
 //——— Basic information ———
@@ -13,6 +12,25 @@ craftmanurl,https://ukagaka.zichqec.com/
 homeurl,https://raw.githubusercontent.com/Zichqec/ancient_gem_balloon/main/
 
 
+//CUSTOMIZATION NOTE: this balloon is set up to be easy to combine with Forged Metal Balloon.
+//The "shared settings" section below is settings common to both balloons, and can be kept as-is.
+//The "Individual settings" section is copied to **all individual settings files** for each balloon size/color, that way even if you make Forged Metal the main balloon, all of the Ancient Gem balloons will still work out of the box.
+//If you want to make adjustments to settings such as the text color and arrow placement, you will need to adjust it in each individual settings file. (If you're not combining the balloons, then you can erase the corresponding section of each individual settings file to make editing easier! Those sections are clearly marked.)
+//Which is to say: The individual settings listed in this file are overwritten elsewhere and by default won't make a difference if you change them. But depending on how you customize, they may be useful!
+
+
+//—————————— Shared settings ——————————
+font.name,CRYSRG__.TTF
+font.height,14
+
+sstpmessage.font.name,CRYSRG__.TTF
+sstpmessage.font.height,11
+
+number.font.name,CRYSRG__.TTF
+number.font.height,11
+
+
+//—————————— Individual settings ——————————
 //——— Display area ———
 origin.x,0
 origin.y,0
@@ -26,9 +44,6 @@ wordwrappoint.x,-39
 
 
 //——— Font ———
-font.name,CRYSRG__.TTF
-font.height,14
-
 font.color.r,240
 font.color.g,240
 font.color.b,240
@@ -51,10 +66,6 @@ disable.font.color.r,125
 disable.font.color.g,125
 disable.font.color.b,165
 
-//disable.font.shadowcolor.r,050
-//disable.font.shadowcolor.g,050
-//disable.font.shadowcolor.b,050
-
 
 //——— Arrows ———
 arrow0.x,-24
@@ -75,9 +86,6 @@ onlinemarker.interval,75
 sstpmarker.x,22
 sstpmarker.y,-35
 
-sstpmessage.font.name,CRYSRG__.TTF
-sstpmessage.font.height,11
-
 sstpmessage.x,32
 sstpmessage.xr,-27
 sstpmessage.y,-34
@@ -88,9 +96,6 @@ sstpmessage.font.color.b,168
 
 
 //——— Number ———
-number.font.name,CRYSRG__.TTF
-number.font.height,11
-
 number.xr,-27
 number.y,-34
 
