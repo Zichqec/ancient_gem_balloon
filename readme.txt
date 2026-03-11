@@ -9,3 +9,5 @@ It contains some redundant settings to make this as easy as possible. If you int
 
 Note: when combining this balloon with Forged Metal (or another balloon), please be sure to change the installation directory in install.txt, otherwise it may overwrite the user's copy of the unmodified balloon. The name of the balloon should also be changed to avoid confusion.
 Further notes on combining and balloon permissions can be found here: https://ukagaka.zichqec.com/permissions#balloons
+
+v1.0.1
