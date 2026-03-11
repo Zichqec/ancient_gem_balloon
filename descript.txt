@@ -2,6 +2,7 @@ charset,UTF-8
 type,balloon
 use_self_alpha,1
 use_input_alpha,1
+overlay_outside_balloon,1
 
 
 //——— Basic information ———
